@@ -27,7 +27,7 @@ module.exports = {
         use: ['file-loader']
       }
     ]
-  },  
+  },
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
@@ -40,5 +40,5 @@ module.exports = {
   },
   resolve: {
     extensions: ['.js', '.jsx']
-  }  
-};
+  }
+}
