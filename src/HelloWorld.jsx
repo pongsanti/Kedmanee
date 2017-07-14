@@ -3,10 +3,10 @@ import {Navbar, Nav, NavItem, NavDropdown, MenuItem, PageHeader} from 'react-boo
 
 const HelloWorld = () => {
   return (
-    <Navbar>
+    <Navbar className='header-nav-primary'>
       <Navbar.Header>
         <Navbar.Brand>
-          <a href="#">Kedmanee</a>
+          <a href="#" className='header-nav-logo'>Kedmanee</a>
         </Navbar.Brand>
       </Navbar.Header>
       <Nav>
@@ -20,7 +20,6 @@ const HelloWorld = () => {
           <MenuItem eventKey={3.4}>Separated link</MenuItem>
         </NavDropdown>
       </Nav>
-      <PageHeader>Hello World</PageHeader>
     </Navbar>
   )
 }
